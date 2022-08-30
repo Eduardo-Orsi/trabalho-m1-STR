@@ -23,12 +23,19 @@ Você deve assumir que todos os sensores e controladores estão na mesma distân
 computador de bordo e que o tempo de envio de dados é de 1 Mbps, sendo que os dados podem
 demorar até 10us para se propagar pelo fio (do nodo até o computador). Os deadlines relativos para
 uma ação de controle (após detecção do sensor) são:
+
 • Injeção eletrônica: 500 us após alteração no pedal
+
 • Temperatura do motor: 20 ms após detecção de temperatura acima do limite
+
 • ABS: 100 ms após acionamento no pedal
+
 • Airbag: 100 ms após detecção de choque
+
 • Cinto de segurança: 1 segundo após carro em movimento
+
 • LVT: 1 segundo após interação do usuário
+
 O computador de bordo deve também alimentar um display para o usuário com alertas de
 informações (mensagens com caracteres). A atualização do display deverá sempre ser de 500 ms.
 Como a empresa quer economizar no sistema no software e no computador de bordo, ela gostaria
