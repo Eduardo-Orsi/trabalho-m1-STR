@@ -1,6 +1,6 @@
 # Trabalho M1 - Sistemas em Tempo Real
 
-Acadêmicos: Eduardo Orsi e Fábio
+Acadêmicos: Eduardo Orsi e Fábio Ivo
 
 Professor: Felipe Viel
 
